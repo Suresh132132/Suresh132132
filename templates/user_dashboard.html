@@ -1,0 +1,7 @@
+<h3>Nearby Service Centers</h3>
+<ul>
+  {% for center in service_centers %}
+    <li>{{ center.name }} - {{ center.address }} - <a href="tel:{{ center.phone }}">{{ center.phone }}</a></li>
+  {% endfor %}
+</ul>
+<a href="/logout">Logout</a>

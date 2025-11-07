@@ -1,0 +1,18 @@
+<h2>Admin Dashboard</h2>
+
+<h3>All Registered Users</h3>
+<ul>
+    {% for user in users %}
+        <li>{{ user.name }} - {{ user.email }}</li>
+    {% endfor %}
+</ul>
+
+<h3>All Service Centers</h3>
+<ul>
+    {% for service in services %}
+        <li>{{ service.name }} - {{ service.location }}</li>
+    {% endfor %}
+</ul>
+
+<a href="/add_service">Add New Service Center</a><br>
+<a href="/logout">Logout</a>
