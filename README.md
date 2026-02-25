@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 <!--
-**Suresh132132/Suresh132132** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Suresh/Suresh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
